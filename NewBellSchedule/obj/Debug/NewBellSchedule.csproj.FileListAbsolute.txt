@@ -1,0 +1,38 @@
+c:\users\asus\source\repos\NewBellSchedule\NewBellSchedule\bin\Debug\NewBellSchedule.exe.config
+c:\users\asus\source\repos\NewBellSchedule\NewBellSchedule\bin\Debug\NewBellSchedule.exe
+c:\users\asus\source\repos\NewBellSchedule\NewBellSchedule\bin\Debug\NewBellSchedule.pdb
+c:\users\asus\source\repos\NewBellSchedule\NewBellSchedule\obj\Debug\NewBellSchedule.csprojResolveAssemblyReference.cache
+c:\users\asus\source\repos\NewBellSchedule\NewBellSchedule\obj\Debug\NewBellSchedule.Form1.resources
+c:\users\asus\source\repos\NewBellSchedule\NewBellSchedule\obj\Debug\NewBellSchedule.Properties.Resources.resources
+c:\users\asus\source\repos\NewBellSchedule\NewBellSchedule\obj\Debug\NewBellSchedule.csproj.GenerateResource.cache
+c:\users\asus\source\repos\NewBellSchedule\NewBellSchedule\obj\Debug\NewBellSchedule.csproj.CoreCompileInputs.cache
+c:\users\asus\source\repos\NewBellSchedule\NewBellSchedule\obj\Debug\NewBellSchedule.exe
+c:\users\asus\source\repos\NewBellSchedule\NewBellSchedule\obj\Debug\NewBellSchedule.pdb
+D:\Pembelajaran\PKL\NewBellSchedule\NewBellSchedule\bin\Debug\NewBellSchedule.exe.config
+D:\Pembelajaran\PKL\NewBellSchedule\NewBellSchedule\obj\Debug\NewBellSchedule.exe
+D:\Pembelajaran\PKL\NewBellSchedule\NewBellSchedule\obj\Debug\NewBellSchedule.pdb
+D:\Pembelajaran\PKL\NewBellSchedule\NewBellSchedule\bin\Debug\NewBellSchedule.exe
+D:\Pembelajaran\PKL\NewBellSchedule\NewBellSchedule\bin\Debug\NewBellSchedule.pdb
+D:\Pembelajaran\PKL\NewBellSchedule\NewBellSchedule\obj\Debug\NewBellSchedule.csprojResolveAssemblyReference.cache
+D:\Pembelajaran\PKL\NewBellSchedule\NewBellSchedule\obj\Debug\NewBellSchedule.Form1.resources
+D:\Pembelajaran\PKL\NewBellSchedule\NewBellSchedule\obj\Debug\NewBellSchedule.Properties.Resources.resources
+D:\Pembelajaran\PKL\NewBellSchedule\NewBellSchedule\obj\Debug\NewBellSchedule.csproj.GenerateResource.Cache
+D:\PKL Project\NewBellSchedule\NewBellSchedule\obj\Debug\NewBellSchedule.Form1.resources
+D:\PKL Project\NewBellSchedule\NewBellSchedule\obj\Debug\NewBellSchedule.csproj.GenerateResource.cache
+D:\PKL Project\NewBellSchedule\NewBellSchedule\obj\Debug\NewBellSchedule.csproj.CoreCompileInputs.cache
+D:\PKL Project\NewBellSchedule\NewBellSchedule\obj\Debug\NewBellSchedule.alert.resources
+D:\PKL Project\NewBellSchedule\NewBellSchedule\obj\Debug\NewBellSchedule.tentang.resources
+D:\PKL Project\NewBellSchedule\NewBellSchedule\obj\Debug\NewBellSchedule.help.resources
+D:\PKL Project\NewBellSchedule\NewBellSchedule\obj\Debug\NewBellSchedule.HowToUse.resources
+D:\PKL Project\NewBellSchedule\NewBellSchedule\obj\Debug\NewBellSchedule.csprojResolveAssemblyReference.cache
+D:\PKL Project\NewBellSchedule\NewBellSchedule\obj\Debug\BellSchedule.Properties.Resources.resources
+D:\PKL Project\NewBellSchedule\NewBellSchedule\bin\Debug\BellSchedule.exe.config
+D:\PKL Project\NewBellSchedule\NewBellSchedule\bin\Debug\BellSchedule.exe.manifest
+D:\PKL Project\NewBellSchedule\NewBellSchedule\bin\Debug\BellSchedule.application
+D:\PKL Project\NewBellSchedule\NewBellSchedule\bin\Debug\BellSchedule.exe
+D:\PKL Project\NewBellSchedule\NewBellSchedule\bin\Debug\BellSchedule.pdb
+D:\PKL Project\NewBellSchedule\NewBellSchedule\obj\Debug\BellSchedule.TrustInfo.xml
+D:\PKL Project\NewBellSchedule\NewBellSchedule\obj\Debug\BellSchedule.exe.manifest
+D:\PKL Project\NewBellSchedule\NewBellSchedule\obj\Debug\BellSchedule.application
+D:\PKL Project\NewBellSchedule\NewBellSchedule\obj\Debug\BellSchedule.exe
+D:\PKL Project\NewBellSchedule\NewBellSchedule\obj\Debug\BellSchedule.pdb
