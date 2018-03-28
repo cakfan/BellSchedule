@@ -974,7 +974,7 @@ namespace NewBellSchedule
             {
                 btn_diskonek.Visible = true;
                 panel_konfig.Visible = true;
-                panel_konek.Visible = false;
+                //panel_konek.Visible = false;
                 
 
             }
