@@ -957,7 +957,7 @@ namespace NewBellSchedule
                 alert.Show("Error... Please try again!", alert.AlertType.error);
                 Console.WriteLine(ex.Message.ToString());
             }
-            //panel_konfig.Visible = true;
+            panel_konfig.Visible = true;
 
         }
 
