@@ -19,7 +19,7 @@ namespace NewBellSchedule
 
         private void btn_about_Click(object sender, EventArgs e)
         {
-            new tentang().Show();
+            tentang t = new tentang(); t.ShowDialog(this);
         }
     }
 }

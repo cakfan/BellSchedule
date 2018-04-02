@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel_konek = new System.Windows.Forms.Panel();
             this.panel_konfig = new System.Windows.Forms.Panel();
+            this.btn_clean = new System.Windows.Forms.Button();
             this.panel_ipconfig = new System.Windows.Forms.Panel();
             this.label91 = new System.Windows.Forms.Label();
             this.btn_saveip = new System.Windows.Forms.Button();
@@ -845,6 +846,7 @@
             // 
             // panel_konfig
             // 
+            this.panel_konfig.Controls.Add(this.btn_clean);
             this.panel_konfig.Controls.Add(this.panel_ipconfig);
             this.panel_konfig.Controls.Add(this.btn_diskonek);
             this.panel_konfig.Controls.Add(this.btn_help);
@@ -855,6 +857,27 @@
             this.panel_konfig.Name = "panel_konfig";
             this.panel_konfig.Size = new System.Drawing.Size(200, 489);
             this.panel_konfig.TabIndex = 0;
+            // 
+            // btn_clean
+            // 
+            this.btn_clean.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_clean.BackColor = System.Drawing.Color.Transparent;
+            this.btn_clean.FlatAppearance.BorderSize = 0;
+            this.btn_clean.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.btn_clean.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_clean.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_clean.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(76)))));
+            this.btn_clean.Image = global::BellSchedule.Properties.Resources.clean;
+            this.btn_clean.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_clean.Location = new System.Drawing.Point(0, 133);
+            this.btn_clean.Name = "btn_clean";
+            this.btn_clean.Size = new System.Drawing.Size(200, 38);
+            this.btn_clean.TabIndex = 22;
+            this.btn_clean.Text = "          Clean";
+            this.btn_clean.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_clean.UseVisualStyleBackColor = false;
+            this.btn_clean.Click += new System.EventHandler(this.btn_clean_Click);
             // 
             // panel_ipconfig
             // 
@@ -872,7 +895,7 @@
             this.panel_ipconfig.Controls.Add(this.tb_netmask4);
             this.panel_ipconfig.Controls.Add(this.tb_netmask2);
             this.panel_ipconfig.Controls.Add(this.tb_netmask3);
-            this.panel_ipconfig.Location = new System.Drawing.Point(0, 182);
+            this.panel_ipconfig.Location = new System.Drawing.Point(0, 250);
             this.panel_ipconfig.Name = "panel_ipconfig";
             this.panel_ipconfig.Size = new System.Drawing.Size(200, 201);
             this.panel_ipconfig.TabIndex = 17;
@@ -1061,7 +1084,7 @@
             this.btn_help.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(76)))));
             this.btn_help.Image = global::BellSchedule.Properties.Resources.help;
             this.btn_help.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_help.Location = new System.Drawing.Point(0, 133);
+            this.btn_help.Location = new System.Drawing.Point(0, 171);
             this.btn_help.Name = "btn_help";
             this.btn_help.Size = new System.Drawing.Size(200, 38);
             this.btn_help.TabIndex = 21;
@@ -1195,9 +1218,9 @@
             this.lb_ntpclock.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(76)))));
             this.lb_ntpclock.Location = new System.Drawing.Point(0, 22);
             this.lb_ntpclock.Name = "lb_ntpclock";
-            this.lb_ntpclock.Size = new System.Drawing.Size(110, 23);
+            this.lb_ntpclock.Size = new System.Drawing.Size(152, 23);
             this.lb_ntpclock.TabIndex = 8;
-            this.lb_ntpclock.Text = "NTP CLOCK";
+            this.lb_ntpclock.Text = "BELL SCHEDULE";
             // 
             // tabControl1
             // 
@@ -18613,7 +18636,6 @@
         private System.Windows.Forms.Button btn_ipconfig;
         private System.Windows.Forms.Button btn_saveip;
         private System.Windows.Forms.Button btn_help;
-        private System.Windows.Forms.Button btn_modif;
         private System.Windows.Forms.TextBox tb_injam1;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;
@@ -19364,6 +19386,8 @@
         private System.Windows.Forms.CheckBox cb_rabu51;
         private System.Windows.Forms.CheckBox cb_selasa51;
         private System.Windows.Forms.Label label91;
+        private System.Windows.Forms.Button btn_clean;
+        private System.Windows.Forms.Button btn_modif;
     }
 }
 

@@ -1,15 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO.Ports;
 using System.IO;
 using System.Threading;
+
 
 namespace NewBellSchedule
 {
@@ -817,6 +812,7 @@ namespace NewBellSchedule
 
                         //Console.WriteLine(addBell + dataHari);
                         serialPort1.WriteLine(addBell + "," + dataHari);
+                        Thread.Sleep(1000);
                     }
                     catch (Exception ex) { alert.Show("Failed to add bell.", alert.AlertType.error); Console.WriteLine(ex.Message.ToString()); }
                 }
@@ -835,11 +831,12 @@ namespace NewBellSchedule
                 string sipnya = "ip/" + tb_ip1.Text + "," + tb_ip2.Text + "," + tb_ip3.Text + "," + tb_ip4.Text;
                 string snetmasknya = "/" + tb_netmask1.Text + "," + tb_netmask2.Text + "," + tb_netmask3.Text + "," + tb_netmask4.Text;
                 string sgateway = "/" + tb_gw1.Text + "," + tb_gw2.Text + "," + tb_gw3.Text + "," + tb_gw4.Text;
-                //Console.WriteLine(sipnya + snetmasknya + sgateway);
+                Console.WriteLine(sipnya + snetmasknya + sgateway);
                 var sip = ipnya + "," + netmasknya + "," + gateway;
                 saveip = new string[] { ipnya + "," + netmasknya + "," + gateway };
                 File.AppendAllText(ipConfig, sip);
-                serialPort1.WriteLine(ipnya + netmasknya + gateway);
+                serialPort1.WriteLine(sipnya + snetmasknya + sgateway);
+                Console.WriteLine(sipnya + snetmasknya + sgateway);
                 alert.Show("IP has been saved.", alert.AlertType.success);
             }
             catch (Exception ex) { alert.Show("Failed to setup IP.", alert.AlertType.error); Console.WriteLine(ex.Message.ToString()); }
@@ -951,6 +948,7 @@ namespace NewBellSchedule
                 serialPort1.BaudRate = Convert.ToInt32(pilih_baudrate.SelectedItem.ToString());
                 serialPort1.Open();
                 alert.Show("Connected.", alert.AlertType.success);
+                
             }
             catch (Exception ex)
             {
@@ -1029,9 +1027,14 @@ namespace NewBellSchedule
             new help().Show();
         }
 
+        private void btn_clean_Click(object sender, EventArgs e)
+        {
+            bersihkan();
+        }
+
         private void pilih_comport_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.A) { new tentang().Show(); }
+            if (e.KeyCode == Keys.A) { tentang t = new tentang(); t.ShowDialog(this); }
         }
 
         private void btn_modif_Click(object sender, EventArgs e)
@@ -1041,9 +1044,9 @@ namespace NewBellSchedule
                 Thread.Sleep(2000);
                 File.WriteAllText(dataBell, String.Empty);
                 setBell();
-                alert.Show("Data saved!", alert.AlertType.success);
                 bersihkan();
                 getBell();
+                alert.Show("Data saved!", alert.AlertType.success);
             }
             catch (Exception ex) { alert.Show("Failed!", alert.AlertType.error); Console.WriteLine(ex.Message.ToString()); }
         }

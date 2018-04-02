@@ -39,7 +39,7 @@ namespace NewBellSchedule
 
         public static void Show(string pesan, AlertType type)
         {
-            new NewBellSchedule.alert(pesan,type).Show();
+            new NewBellSchedule.alert(pesan,type).ShowDialog(NewBellSchedule.Form1.ActiveForm);
         }
 
         public enum AlertType
